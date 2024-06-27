@@ -1,0 +1,114 @@
+body {
+
+    font-family: 'Roboto' , sans-serif;
+    background-color: #1a1b1a;
+    color:#fff;
+}
+
+a{
+    color:rgb(24, 143, 83);
+}
+
+.no-underline{
+    text-decoration: none;
+}
+
+h1 {
+
+    text-align: center;
+
+}
+
+#Login {
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.cpf input {
+
+    margin-bottom: 15px;
+    border-radius: 15px;
+    border: none;
+    width: 280px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: #293129;
+    color: #b6b6b6
+
+}
+.name input{
+    
+        margin-bottom: 15px;
+        border-radius: 15px;
+        border: none;
+        width: 280px;
+        height: 40px;
+        padding-left: 15px;
+        background-color: #293129;
+        color: #b6b6b6
+
+
+}
+
+.email input {
+
+    border-radius: 15px;
+    border: none;
+    width: 280px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: #293129;
+    color: #b6b6b6
+}
+
+.senha input {
+
+    border-radius: 15px ;
+    border: #1a1b1a;
+    width: 280px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: #293129;
+    color: #b6b6b6;
+    margin-top: 15px;
+}
+
+.entrar input {
+
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: #1a1b1a;
+    background-color: rgb(0, 255, 64);
+    color: #141414;
+
+}
+
+
+
+
+
+input::placeholder {
+        color: #b6b6b6;
+}
+
+h1{
+    color: #fafafa;
+}
+
+.caixa {
+    margin-top: 65px;
+}
+
+.caixa img {
+    width: 500px;
+}
+
+input:focus{
+    outline: none;
+}

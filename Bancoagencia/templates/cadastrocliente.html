@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="/static/css/styleLogin.css">
+      <title>CADASTRO</title>
+
+</head>
+
+<body>
+    
+      <div id="Login">
+
+         <div class="caixa">
+            
+            <img src="/static/img/Banco Original_idWfVTaMvl_3.png" alt="">
+            
+                <h1>CADASTRO</h1>
+
+
+
+       <!--CPF-->
+<div class="cpf">                            
+<input int ="number" placeholder="CPF" maxlength="14" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" required title="Digite o CPF no formato 000.000.000-00">                
+</div>
+<!--NOME-->
+<div class="name">               
+<input type="name" placeholder="Nome" required>                    
+</div>
+<!--E-MAIL-->
+<div class="email">                      
+<input type="email" placeholder="E-mail" required>                  
+</div>
+<!--SENHA--> 
+<div class="senha">                       
+<input type="password" placeholder="Senha" required>               
+</div>
+<!--CONFIRMAR SENHA-->
+ <div class="senha">
+ <input type="password" placeholder="Confirme a sua senha" required>                         
+</div>
+ <br>
+ <!--B0TÃO ENTRAR-->
+<div class="entrar">                
+<a href="/templates/loginclient.html">                   
+<input type="submit" value="Entrar" >
+ </a>
+<p>Já tem login? <a href="/templates/loginclient.html">Clique aqui</a></p>                                       
+</div>
+</div>
+</div>
+</form>
+</body>
+                    
+                        
+
+                </body>
+
+     </html>
